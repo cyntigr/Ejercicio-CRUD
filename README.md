@@ -1,2 +1,4 @@
 # Ejercicio-CRUD
-Práctica altas, bajas, modificaciones y listado
+Práctia altas, bajas, modificaciones y listado.
+Se llevara acabo con jsp y base de datos mysql.
+
