@@ -16,13 +16,21 @@ En la base de datos he creado tres tablas relacionales Mascota, Animal y Raza co
 <img src="img/5.png" width="720px">
 
 # Ejercicio JSP
-* En la página de inicio nos muestra un listado de los animales dados de alta, y a su vez las demás funcionalidades, como dar de alta un nuevo cliente.
+
+ * En la página de inicio nos muestra un listado de los animales dados de alta, y a su vez las demás funcionalidades, como dar de alta un nuevo cliente.
+
 <img src="img/6.png" width="720px">
-* Una vez has dado de alta aparece un mensaje en el que te dice que se ha grabado satisfactóriamente.
+
+ * Una vez has dado de alta aparece un mensaje en el que te dice que se ha grabado satisfactóriamente.
+
 <img src="img/7.png" width="720px">
-* Si le das al botón de modificar te pasa a otra página donde te aparecen los datos del cliente que has seleccionado para modificarlos.
+
+ * Si le das al botón de modificar te pasa a otra página donde te aparecen los datos del cliente que has seleccionado para modificarlos.
+
 <img src="img/8.png" width="720px">
-* Una vez le das aceptar los cambios de la modificación te muestra un mensaje el cual te indica que se ha grabado bien y aparece un botón para volver a la página de inicio.
+
+ * Una vez le das aceptar los cambios de la modificación te muestra un mensaje el cual te indica que se ha grabado bien y aparece un botón para volver a la página de inicio.
+
 <img src="img/9.png" width="720px">
 
 
