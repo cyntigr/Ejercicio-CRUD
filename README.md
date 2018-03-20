@@ -40,7 +40,9 @@ En la base de datos he creado tres tablas relacionales Mascota, Animal y Raza co
 
 <img src="img/9.png" width="720px">
 
+ * Para los estilos se ha utilizado bootstrap.
 
+<img src="img/10.png" width="720px">
 
 
 
