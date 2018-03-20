@@ -44,7 +44,7 @@
                         <input type="text" name="Sexo" value="<%= request.getParameter("Sexo")%>">
                     </div>
                     <div class="form-group">
-                        <label>&nbsp;&nbsp;Codigo Animal:&nbsp;</label>
+                        <label>&nbsp;&nbsp;Animal:&nbsp;</label>
                         <select name="CodAnimal">
                             <%
                               while (Animal.next()) {
@@ -52,6 +52,7 @@
                               }
                             %>
                         </select>
+                        <label>&nbsp;&nbsp;Raza:&nbsp;</label>
                         <select name="CodRaza">
                             <%
                               ResultSet Raza = s.executeQuery("SELECT * FROM Raza order by CodRaza");
