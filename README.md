@@ -1,5 +1,5 @@
 # Ejercicio-CRUD
-Práctia altas, bajas, modificaciones y listado.
+Práctica altas, bajas, modificaciones y listado.
 * Se llevará acabo con jsp y base de datos mysql.
 
 Para mi práctica he elegido un Hotel de Mascotas donde das de alta los animales que entran nuevos en el hotel y le asignas una habitación, también puedes borrarlo una vez se ha ido o modificar algun dato que haya sido introducido mal en el alta del cliente.
