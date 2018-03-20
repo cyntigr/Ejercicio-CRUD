@@ -1,6 +1,6 @@
 # Ejercicio-CRUD
 Práctia altas, bajas, modificaciones y listado.
-* Se llevara acabo con jsp y base de datos mysql.
+* Se llevará acabo con jsp y base de datos mysql.
 
 Para mi práctica he elegido un Hotel de Mascotas donde das de alta los animales que entran nuevos en el hotel y le asignas una habitación, también puedes borrarlo una vez se ha ido o modificar algun dato que haya sido introducido mal en el alta del cliente.
 
@@ -28,7 +28,7 @@ En la base de datos he creado tres tablas relacionales Mascota, Animal y Raza co
 
 <img src="img/6.png" width="720px">
 
- * Una vez has dado de alta aparece un mensaje en el que te dice que se ha grabado satisfactóriamente.
+ * Una vez has dado de alta aparece un mensaje en el que te dice que se ha grabado satisfactoriamente.
 
 <img src="img/7.png" width="720px">
 

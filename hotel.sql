@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 20-03-2018 a las 18:55:57
+-- Tiempo de generación: 20-03-2018 a las 21:21:25
 -- Versión del servidor: 5.7.21-0ubuntu0.17.10.1
 -- Versión de PHP: 7.1.15-0ubuntu0.17.10.1
 
@@ -61,15 +61,15 @@ CREATE TABLE `Mascota` (
 --
 
 INSERT INTO `Mascota` (`CodMascota`, `NomMascota`, `NumHabitacion`, `Sexo`, `CodAnimal`, `CodRaza`) VALUES
-(1, 'Leonidas', 12, 'Macho', 1, 1),
+(1, 'Leonida', 12, 'Macho', 1, 1),
 (2, 'Micho', 1, 'Macho', 2, 11),
-(3, 'Mini', 2, 'Hembra', 2, 14),
+(3, 'Minis', 2, 'Hembra', 1, 1),
 (4, 'Perri', 3, 'Macho', 1, 5),
 (5, 'Carboncillo', 5, 'Macho', 3, 16),
 (6, 'Blanquita', 9, 'Hembra', 3, 18),
-(7, 'Cantarin', 7, 'Macho', 4, 25),
+(7, 'Valinder', 6, 'Hembra', 3, 18),
 (8, 'Leona', 10, 'Hembra', 2, 5),
-(9, 'Laila', 4, 'Hembra', 1, 3);
+(10, 'Cerbero', 7, 'Macho', 1, 2);
 
 -- --------------------------------------------------------
 
@@ -95,19 +95,16 @@ INSERT INTO `Raza` (`CodRaza`, `NomRaza`, `CodAnimal`) VALUES
 (5, 'Doverman', 1),
 (6, 'Dogo', 1),
 (7, 'Pequines', 1),
-(8, 'Otros', 1),
 (9, 'Romano', 2),
 (10, 'Siames', 2),
 (11, 'Maincoon', 2),
 (12, 'Bengalí', 2),
 (13, 'Persa', 2),
-(14, 'Otros', 2),
 (15, 'Pinto', 3),
 (16, 'Percheron', 3),
 (17, 'Andaluz', 3),
 (18, 'Arabe', 3),
 (19, 'Tordo', 3),
-(20, 'Otros', 3),
 (21, 'Verderon', 4),
 (22, 'Jilguero', 4),
 (23, 'Agapornis', 4),
@@ -155,7 +152,7 @@ ALTER TABLE `Animal`
 -- AUTO_INCREMENT de la tabla `Mascota`
 --
 ALTER TABLE `Mascota`
-  MODIFY `CodMascota` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `CodMascota` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT de la tabla `Raza`
 --
