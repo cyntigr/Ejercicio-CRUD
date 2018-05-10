@@ -8,19 +8,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+       <link href="estilos.css" rel="stylesheet" type="text/css">
+        
         <title>Hotel Mascotas</title>
     </head>
 
     <body>
         
-        <div class="container">
+        <div id="container">
+            <br><br>
+            <form  method="get" action="inicio.jsp">
+            <button class="desconectarse" type="submit" class="inicio">Desconectarse</button>
+        </form>
             <br><br>			
-            <div class="panel panel-primary">
-                <div class="panel-heading text-center"><img src="collie-1.png"></div>
+            <div>
+                <div><img src="collien.png"></div>
                 <%
                   Class.forName("com.mysql.jdbc.Driver");
                   Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel", "root", "root");
@@ -29,7 +31,7 @@
                   ResultSet Animal = s.executeQuery("SELECT * FROM Animal order by CodAnimal");
                 %>
 
-                <table class="table table-striped">
+                <table >
                     <tr><th>Cod Mascota</th><th>Nombre</th><th>Habitación</th>
                         <th>Sexo</th><th>Animal</th><th>Raza</th></tr>
                     <form method="get" action="grabaCliente.jsp">
@@ -59,7 +61,7 @@
                                 </select>
                                 
                             </td>
-                            <td><button type="submit" value="Añadir" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Añadir</button></td><td></td></tr>           
+                            <td><button type="submit" value="Añadir" class="añadir"> Añadir</button></td><td></td></tr>           
                     </form>
 
                     <%
@@ -82,13 +84,13 @@
                             <input type="hidden" name="Sexo" value="<%=Mascota.getString("Sexo")%>">
                             <input type="hidden" name="CodAnimal" value="<%=Mascota.getString("CodAnimal")%>">
                             <input type="hidden" name="CodRaza" value="<%=Mascota.getString("CodRaza")%>">
-                            <button type="submit"  class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Modificar</button>
+                            <button type="submit"  class="modificar"> Modificar</button>
                         </form>
                     </td>
                     <td>
                         <form method="get" action="borraCliente.jsp">
                             <input type="hidden" name="CodMascota" value="<%=Mascota.getString("CodMascota")%>"/>
-                            <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span> Eliminar</button>
+                            <button type="submit" class="eliminar">Eliminar</button>
                         </form>
                     </td></tr>
                     <%
@@ -99,10 +101,7 @@
 
                 </table>
             </div>
-            <div class="text-center">&copy; Cintia García Ruiz</div>
+                    <div class="footer">&copy; Cintia García Ruiz</div>
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

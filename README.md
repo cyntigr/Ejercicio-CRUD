@@ -1,5 +1,5 @@
 # Ejercicio-CRUD
-Práctica altas, bajas, modificaciones y listado.
+Práctia altas, bajas, modificaciones y listado.
 * Se llevará acabo con jsp y base de datos mysql.
 
 Para mi práctica he elegido un Hotel de Mascotas donde das de alta los animales que entran nuevos en el hotel y le asignas una habitación, también puedes borrarlo una vez se ha ido o modificar algun dato que haya sido introducido mal en el alta del cliente.
@@ -43,6 +43,29 @@ En la base de datos he creado tres tablas relacionales Mascota, Animal y Raza co
  * Para los estilos se ha utilizado bootstrap.
 
 <img src="img/10.png" width="720px">
+
+
+# SEGUNDA PARTE DEL CRUD
+
+ * Para esta segunda parte he cambiado el estilo del crud y añadido una página más de autenticación de usuario, ahí es donde he utilizado ArrayList y HasMap.
+
+<img src="img/11.png" width="720px">
+
+ * Página principal del crud.
+
+<img src="img/12.png" width="720px">
+
+ * Entramos en la lista de mascotas que se hospedan y podemos añadir otras mascotas.
+
+<img src="img/13.png" width="720px">
+
+ * Podemos modificar algunos datos de las mascotas.
+ * Y estos son los mensajes de error que te pueden surgir en la autenticación
+ del principio o el mensaje satisfactorio de cliente añadido.
+
+<img src="img/14.png" width="720px">
+<img src="img/15.png" width="720px">
+<img src="img/16.png" width="720px">
 
 
 

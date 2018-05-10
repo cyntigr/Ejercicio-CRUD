@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-may-2018, 21:21:59
+    Author     : cyntia
+*/
+#container{
+    text-align: center;
+    background-color: rgba(249,166,47,25);
+    width: 80%;
+    margin: 0 auto;
+}
+#container,label{
+    color: whitesmoke;
+}
+table{
+    margin: 0 auto;
+}
+.eliminar{
+    color: #c51700;
+}
+.modificar{
+    color: darkblue;
+}
+.añadir{
+    color: forestgreen; 
+}
+.inicio{
+    color: darkblue;
+}
+#cuadro{
+    text-align: center;
+    border: solid #fed45f 1px;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 15px 50px 30px;
+}
+.footer{
+    color: whitesmoke;
+    text-align: left;
+    padding: 15px;
+}
+.desconectarse{
+    color:#f5151a ;
+    background-color: whitesmoke;
+    border-radius:3.5px;
+    padding: 3px;
+    float: right;
+    margin-right: 20px;
+}
+.titulo{
+    margin-bottom: 5px; 
+}
